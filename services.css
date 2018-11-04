@@ -1,0 +1,45 @@
+body
+{
+    background-image: url("kimg0.jpg");
+}
+
+
+
+#logo {
+    display: inline-block;
+    margin: 0; /* margin: 20px was off */
+    float: left;
+    height: 80px;
+    width: auto; /* correct proportions to specified height */
+    border-radius: 100%; /* makes it a circle */
+  }
+
+  ul
+{
+    list-style-type: none;
+    margin-right:0 ;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;  
+    float: down;
+    text-align: center;
+}
+  
+li
+{
+    float: left;
+
+}
+
+li a
+{
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+span{
+    color: rgb(175, 111, 175);
+    font-size: 2em;
+}

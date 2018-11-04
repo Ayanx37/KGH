@@ -1,0 +1,94 @@
+
+h1{ 
+    justify-content: center;
+    font-family: fantasy;
+    font-size: 50px;  
+    text-align:center; 
+    
+}
+.kgh{
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+span{
+    color: rgb(175, 111, 175);
+    font-size: 2em;
+}
+*
+{
+    font-family: 'Mali', cursive;
+    line-height: 50%;
+    font-size: 100%;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+#logo {
+  display: inline-block;
+  margin: 0; /* margin: 20px was off */
+  float: left;
+  height: 80px;
+  width: auto; /* correct proportions to specified height */
+  border-radius: 100%; /* makes it a circle */
+}
+
+
+body
+{
+    background-image: url("kimg0.jpg");
+}
+
+ul
+{
+    list-style-type: none;
+    margin-right:0 ;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;  
+    float: down;
+    text-align: left;
+}
+
+li
+{
+    float: left;
+
+}
+
+li a
+{
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover
+{
+    background-color:purple
+}
+
+.body
+{
+    text-align: center;
+    color: white
+}
+
+
+footer
+{
+    clear: both;
+  list-style-type: none;
+  margin-top:510px ;
+  padding: 14px 16px;
+  overflow: hidden;
+  background-color: #333;  
+  float: none;
+  text-align: left;
+}
+
+
